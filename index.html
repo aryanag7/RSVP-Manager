@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RSVP Service</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Team RSVP Manager</h1>
+
+    <div class="form-group">
+      <input type="text" id="nameInput" placeholder="Player Name" />
+      <select id="statusInput">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Maybe">Maybe</option>
+      </select>
+      <div class="button-row">
+        <button id="submitBtn">Add/Update RSVP</button>
+        <button id="clearBtn">Clear All RSVPs</button>
+      </div>
+    </div>
+
+    <h3>Confirmed Attendees (Yes)</h3>
+    <ul id="confirmedList"></ul>
+
+    <h3>RSVP Summary</h3>
+    <p id="summary"></p>
+  </div>
+
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
