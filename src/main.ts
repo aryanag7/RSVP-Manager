@@ -32,6 +32,8 @@ submitBtn.addEventListener('click', () => {
   };
 
   rsvpService.addOrUpdate(entry);
+  nameInput.value = '';        
+  statusInput.value = 'Yes'; 
   updateUI();
 });
 
@@ -55,6 +57,8 @@ function updateUI() {
 
 clearBtn.addEventListener('click', () => {
     rsvpService.clearAll();
+    nameInput.value = '';            
+    statusInput.value = 'Yes'; 
     updateUI();
   });
   
