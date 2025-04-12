@@ -33,6 +33,13 @@ A modern, elegant RSVP tracking system built with TypeScript, featuring dependen
 
 ---
 
+## 📱 Screenshots
+
+<div align="center">
+  <img width="1072" alt="image" src="https://github.com/user-attachments/assets/41443fe3-6242-4482-a7b0-9f50e960019c" />
+  <p><em>Modern dashboard interface for RSVP management</em></p>
+</div>
+
 ## 🚀 Quick Start
 
 1. **Clone the repository**
@@ -62,12 +69,6 @@ A modern, elegant RSVP tracking system built with TypeScript, featuring dependen
   - Pure Functions
   - Clean Separation of Logic from Presentation
 
-## 📱 Screenshots
-
-<div align="center">
-  <img width="1072" alt="image" src="https://github.com/user-attachments/assets/41443fe3-6242-4482-a7b0-9f50e960019c" />
-  <p><em>Modern dashboard interface for RSVP management</em></p>
-</div>
 
 ## 🤝 Contributing
 
